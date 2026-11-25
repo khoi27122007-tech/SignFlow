@@ -1,9 +1,4 @@
-# SignFlow - sửa nhận diện landmark A-Z
-
-## Vì sao cần build và train lại?
-Checkpoint landmark cũ chỉ có 18 lớp (J-Z và space), nên không thể dự đoán A-I.
-Bản sửa loại `nothing` khỏi bài toán phân loại: `nothing` là trạng thái không có tay,
-được webcam hiển thị riêng là `NO HAND DETECTED`.
+# SignFlow 
 
 ## Cài thư viện
 Kích hoạt môi trường `.venv311` của dự án, sau đó:
